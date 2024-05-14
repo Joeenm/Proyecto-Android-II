@@ -47,5 +47,5 @@ dependencies {
 
     // Retrofit dependencies
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.10")
-    implementation("mysql:mysql-connector-java:8.0.28")
+    implementation("mysql:mysql-connector-java:8.0.30")
 }

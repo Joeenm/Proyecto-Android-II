@@ -4,14 +4,16 @@ import java.sql.Connection
 import java.sql.DriverManager
 
 object DBConnection {
-    fun getConnection(): Connection? {
-        val url = "jdbc:mysql://localhost:3306/android"
-        val user = "root"
-        val password = ""
+    private val servername = "localhost"
+    private val username = "root"
+    private val password = ""
+    private val database = "android"
 
+    fun getConnection(): Connection? {
+        val url = "jdbc:mysql://$servername:3306/$database"
         return try {
             Class.forName("com.mysql.cj.jdbc.Driver")
-            DriverManager.getConnection(url, user, password)
+            DriverManager.getConnection(url, username, password)
         } catch (e: Exception) {
             e.printStackTrace()
             null
