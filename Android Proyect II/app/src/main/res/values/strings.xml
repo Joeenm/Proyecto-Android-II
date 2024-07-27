@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProyectoAndroid</string>
+    <string name="buscar">Buscar</string>
+    <string name="primer_apellido">Primer Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="xxxx_xxxx">xxxx-xxxx</string>
+    <string name="crud_dsw_vi">CRUD Dsw VI</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="segundo_nombre">Segundo Nombre</string>
+    <string name="segundo_apellido">Segundo Apellido</string>
+    <string name="ingrese_c_dula">Ingrese Cédula</string>
+    <string name="example_utp_ac_pa">example@utp.ac.pa</string>
+    <string name="ciudad_calle_casa">Ciudad / Calle / # Casa</string>
+    <string name="primer_nombre">Primer Nombre</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+</resources>
